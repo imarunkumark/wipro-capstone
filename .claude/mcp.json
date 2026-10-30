@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "customer-info": {
+      "command": "python3",
+      "args": ["bfsi/mcp/customer_info_server.py"]
+    },
+    "banking-api": {
+      "command": "python3",
+      "args": ["bfsi/mcp/banking_api_server.py"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}" }
+    }
+  }
+}

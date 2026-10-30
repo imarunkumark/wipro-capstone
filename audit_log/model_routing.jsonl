@@ -1,0 +1,11 @@
+{"request_id": "R1001", "task": "reason", "model": "anthropic/claude-sonnet-4.5", "rationale": "default reasoning: chatbot, KYC, compliance narrative"}
+{"request_id": "R1001", "task": "decide", "model": "anthropic/claude-opus-4.1", "rationale": "highest-stakes decision: final approval / judge / ambiguous fraud"}
+{"request_id": "R1002", "task": "reason", "model": "anthropic/claude-sonnet-4.5", "rationale": "default reasoning: chatbot, KYC, compliance narrative"}
+{"request_id": "B1", "task": "classify", "model": "anthropic/claude-3.5-haiku", "rationale": "high-volume, low-stakes classification"}
+{"request_id": "B2", "task": "classify", "model": "anthropic/claude-3.5-haiku", "rationale": "high-volume, low-stakes classification"}
+{"request_id": "B3", "task": "classify", "model": "anthropic/claude-3.5-haiku", "rationale": "high-volume, low-stakes classification"}
+{"request_id": "B4", "task": "classify", "model": "anthropic/claude-3.5-haiku", "rationale": "high-volume, low-stakes classification"}
+{"request_id": "REDGE", "task": "reason", "model": "anthropic/claude-sonnet-4.5", "rationale": "default reasoning: chatbot, KYC, compliance narrative"}
+{"request_id": "RAUD", "task": "reason", "model": "anthropic/claude-sonnet-4.5", "rationale": "default reasoning: chatbot, KYC, compliance narrative"}
+{"request_id": "RAUD", "task": "decide", "model": "anthropic/claude-opus-4.1", "rationale": "highest-stakes decision: final approval / judge / ambiguous fraud"}
+{"request_id": "judge-run", "task": "decide", "model": "anthropic/claude-opus-4.1", "rationale": "highest-stakes decision: final approval / judge / ambiguous fraud"}

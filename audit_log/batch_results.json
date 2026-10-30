@@ -1,0 +1,22 @@
+[
+  {
+    "id": "B1",
+    "risk": "LOW",
+    "engine": "fallback"
+  },
+  {
+    "id": "B2",
+    "risk": "HIGH",
+    "engine": "fallback"
+  },
+  {
+    "id": "B3",
+    "risk": "LOW",
+    "engine": "fallback"
+  },
+  {
+    "id": "B4",
+    "risk": "HIGH",
+    "engine": "fallback"
+  }
+]
