@@ -1,0 +1,35 @@
+{"seq": 1, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 2, "server": "banking-api", "tool": "get_balance", "args": {"account_id": "AC5001"}, "ok": true}
+{"seq": 3, "server": "banking-api", "tool": "transfer_funds", "args": {"from_account": "AC5001", "to_account": "AC5002", "amount": 750.0}, "ok": true}
+{"seq": 1, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 2, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 3, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 1, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 2, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 3, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 4, "server": "banking-api", "tool": "transfer_funds", "args": {"from_account": "AC5001", "to_account": "AC5002", "amount": 750.0}, "ok": true}
+{"seq": 5, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 6, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 7, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5002", "ip_country": "RU"}, "ok": true}
+{"seq": 8, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 9, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 10, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 11, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "RU"}, "ok": true}
+{"seq": 12, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 13, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5002", "ip_country": "SG"}, "ok": true}
+{"seq": 14, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 15, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5002", "ip_country": "NG"}, "ok": true}
+{"seq": 1, "server": "banking-api", "tool": "get_balance", "args": {"account_id": "AC5001"}, "ok": true}
+{"seq": 2, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 3, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 4, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 5, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 6, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5002"}, "ok": true}
+{"seq": 7, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5002", "ip_country": "SG"}, "ok": true}
+{"seq": 8, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 9, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 10, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 11, "server": "customer-info", "tool": "get_customer", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 12, "server": "customer-info", "tool": "check_customer_history", "args": {"customer_id": "C5001"}, "ok": true}
+{"seq": 13, "server": "customer-info", "tool": "verify_ip_location", "args": {"customer_id": "C5001", "ip_country": "IN"}, "ok": true}
+{"seq": 14, "server": "banking-api", "tool": "transfer_funds", "args": {"from_account": "AC5001", "to_account": "AC5002", "amount": 10.0}, "ok": true}

@@ -1,0 +1,24 @@
+name: capstone-ci-gate
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      ANTHROPIC_BASE_URL: https://openrouter.ai/api
+      MODEL_HAIKU: anthropic/claude-3.5-haiku
+      MODEL_SONNET: anthropic/claude-sonnet-4.5
+      MODEL_OPUS: anthropic/claude-opus-4.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install anthropic python-dotenv "mcp<2" bandit pytest
+      - name: Unit + integration tests
+        run: python -m pytest tests/ -q
+      - name: Security scan (no medium+ findings)
+        run: bandit -q -r bfsi -ll
+      - name: Claude-as-Judge gate (score >= 4)
+        run: python -m bfsi.judge
